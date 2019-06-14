@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+html, body{
+	height: 100%;
+}
+.clear{clear: both;}
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+.login{
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 4px 6px 6px -2px rgba(21,64,82,0.41);
+	padding: 50px 2%;
+	min-width: 400px;
+	border-radius: 10px;
+}
+.login img{
+	width: 100%;
+	max-width: 250px;
+	display: inline-block;
+	margin-left: 50px;
+}
+.login h2{
+	text-align: center;
+	padding: 30px 0;
+	font-weight: normal;
+}
+.login h2 i{
+	font-size: 30px;
+}
+.login label{
+	float: right;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.login input[type=checkbox]{
+	float: right;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+.esqueci{
+	float: right;
+	margin-top: 10px;
+}
+.esqueci a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+}
+.form-control i{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 0 0 0;
+}
+.form-control input[type=email],
+.form-control input[type=password]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #CCC;
+	padding-left: 8px;
+	margin-top: 10px;
+}
+.form-control input[type=submit]{
+	width: 30%;
+	height: 40px;
+	margin-top: 30px;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #0079B7;
+}
+.form-control a{
+	text-align: right;
+	margin-left: 100px;
+	text-decoration: none;
+	color: #0079B7;
+	font-size: 15px;
+}
+.menu{
+	padding: 20px 0;
+	text-align: center;
+}
+.menu img{
+	width: 100%;
+	max-width: 200px;
+	padding: 15px;
+}
+.menu h2{
+	text-align: center;
+	font-weight: normal;
+	font-size: 25px;
+}
+nav.mobile{
+	display: none;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0079B7;
+	color: #FFFFFF;
+	margin-right: 10px;
+	border-radius: 15px;
+}
+h2.welcome{
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.clientes h1{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
+}
+.clientes h2{
+	padding: 20px 0 15px 0;
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+}
+.clientes .dados_clientes{
+	padding: 20px 0;
+}
+.clientes table{
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+.clientes table tr{
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+.clientes table th, td{
+	padding: 25px 10px;
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+}
+.clientes table tr a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+.cadastro_form{
+	padding: 20px 0;
+}
+.cadastro_form h3{
+	text-align: center;
+}
+.cadastro_form form{
+	padding: 20px 0;
+	text-align: center;
+}
+.cadastro_form form input[type=text],
+.cadastro_form form input[type=password]{
+	width: 100%;
+	max-width: 500px;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.cadastro_form form select{
+	width: 100%;
+	max-width: 500px;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.cadastro_form form textarea{
+	width: 100%;
+	max-width: 500px;
+	height: 80px;
+	padding: 10px;
+	margin-bottom: 10px;
+	resize: vertical;
+}
+.cadastro_form form input[type=submit]{
+	width: 100%;
+	max-width: 500px;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #0079B7;
+	border: 0;
+	font-size: 20px;
+}
+.client_h2 {
+	padding-top: 30px;
+}
+table.client_info{
+	margin-top: 30px;
+	border: 2px solid #000000;
+}
+table.client_info th{
+	width: 180px;
+	border-right: 2px solid #000000;
+	background-color: #CCCCCC;
+}
+.opcoes{
+	text-align: center;
+	padding: 30px;
+}
+.opcoes a{
+	text-decoration: none;
+	padding: 10px 15px;
+	background-color: #0079B7;
+	margin-right: 20px;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 15px;
+}
+.delete h4{
+	padding: 30px 0 10px 0;
+	text-align: center;
+}
+.del_button{
+	text-align: center;
+	padding: 30px 0;
+}
+.del_button input{
+	border: 0;
+	padding: 10px 20px;
+	background-color: #0079B7;
+	margin-right: 20px;
+	color: #ffffff;
+	border-radius: 15px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.del_button a{
+	padding: 10px 20px;
+	background-color: #0079B7;
+	margin-right: 20px;
+	color: #ffffff;
+	border-radius: 15px;
+	font-size: 18px;
+	text-decoration: none;
+}
+table.dados_clientes a{
+	text-decoration: none;
+	color: #000;
+}
+.select{
+	padding: 20px 10px;
+	border-bottom: 1px solid #AAAAAA;
+	margin-left: 190px;
+}
+.select p{
+	margin-bottom: 10px;
+}
+.select select{
+	width: 200px;
+	height: 40px;
+}
+.select input[type=submit]{
+	width: 50px;
+	height: 40px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	background-color: #0079B7;
+}
+.erro{
+	width: 100%;
+	text-align: center;
+	background-color: red;
+	color: #ffffff;
+	padding: 10px;
+	margin-top: 10px;
+}
+.sucesso{
+	width: 100%;
+	text-align: center;
+	background-color: #1EB06C;
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+}
+.sucesso a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 750px) {
+	nav.desktop{
+		display: none;
+	}
+	nav.mobile{
+		display: block;
+	}
+	nav.mobile h2{
+		cursor: pointer;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	nav.mobile ul{
+		display: none;
+	}
+	nav.mobile li{
+		display: block;
+		margin-bottom: 10px;
+	}
+	nav.mobile ul a{
+		text-decoration: none;
+	}
+	.select{
+		margin: 0;
+	}
+}
