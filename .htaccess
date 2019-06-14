@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /trinity_sales/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
 
 #Para deploy do sistema usar configuração abaixo
 #RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]

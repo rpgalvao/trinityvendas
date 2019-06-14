@@ -12,7 +12,7 @@ if (ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = 'root';
 } else {
-	define("BASE_URL", 'http://trinity.rpg.not.br/');
+	define("BASE_URL", 'http://trinityvendas.ga/');
 	$config['dbname'] = 'rpgno143_trinity_sales';
 	$config['dbhost'] = 'ns610.hostgator.com.br';
 	$config['dbuser'] = 'rpgno143_trinity';
